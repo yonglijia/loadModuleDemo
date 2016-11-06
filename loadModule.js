@@ -7,7 +7,7 @@ var loadderDir = (function(){
   function dirname(path) {
     return path.match(/[^?#]*\//)[0]
   }
-  //拿到引用seajs所在的script节点
+  //拿到引用所在的script节点
   var scripts = document.scripts
   var ownScript = scripts[scripts.length - 1]
   
